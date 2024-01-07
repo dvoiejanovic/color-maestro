@@ -1,0 +1,62 @@
+:root {
+  --backgroundColor: rgba(246, 241, 209);
+  --mintA: #008000;
+  --mintB: #1f991f;
+  --mintC: #32a632;
+  --mintD: #7acc7a;
+  --mintE: #98d998;
+
+  --wineA: #aa1a1c;
+  --wineB: #bd1f21;
+  --wineC: #dd2c2f;
+  --wineD: #e35053;
+  --wineE: #ec8385;
+
+  --seasideA: #184d67;
+  --seasideB: #0b4d74;
+  --seasideC: #006494;
+  --seasideD: #0582ca;
+  --seasideE: #00a6fb;
+
+  --sunriseA: #906611;
+  --sunriseB: #b69121;
+  --sunriseC: #c9a227;
+  --sunriseD: #edc531;
+  --sunriseE: #ffe169;
+
+  --gloomA: #343a40;
+  --gloomB: #495057;
+  --gloomC: #6c757d;
+  --gloomD: #adb5bd;
+  --gloomE: #dee2e6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Single Day', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

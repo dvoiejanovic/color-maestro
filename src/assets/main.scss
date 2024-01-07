@@ -1,0 +1,11 @@
+@import './base.scss';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+@import url('https://fonts.googleapis.com/css2?family=Single Day');
+
+main {
+  width: 100%;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-areas: 'sidebar palette';
+}
